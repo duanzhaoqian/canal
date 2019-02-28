@@ -10,11 +10,11 @@ import org.junit.Assert;
  */
 public abstract class AbstractKafkaTest {
 
-    public static String  topic     = "example";
+    public static String  topic     = "SITE_1600002355";
     public static Integer partition = null;
     public static String  groupId   = "g4";
-    public static String  servers   = "slave1:6667,slave2:6667,slave3:6667";
-    public static String  zkServers = "slave1:2181,slave2:2181,slave3:2181";
+    public static String  servers   = "10.12.51.54:9092";
+    public static String  zkServers = "10.12.51.55:2181";
 
     public void sleep(long time) {
         try {
